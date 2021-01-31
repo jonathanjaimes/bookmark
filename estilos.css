@@ -258,7 +258,7 @@ header img {
 
 .menu {
 	width: 100%;
-	padding: 0px 10% 0px 10%;
+	padding: 0px 10% 150px 10%;
 }
 
 .primero {
@@ -317,6 +317,53 @@ header img {
 	margin-top: 20px;
 	display: block;
 	margin: auto;
+}
+
+.preFooter {
+	width: 100%;
+	padding: 40px 10% 50px 10%;
+	background-color: #5266e2;
+}
+
+.preFooterText {
+	width: 350px;
+	margin: auto;
+}
+
+.preFooterText p {
+	text-align: center;
+	color: white;
+}
+
+.preFooterText h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.button7 {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fa585c;
+	color: white;
+	margin-left: 10px;
+
+
+}
+
+.searchCamp {
+	/*background-color: red;*/
+	width: 290px;
+	margin: auto;
+}
+
+.buscar {
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
 }
 
 
@@ -456,5 +503,20 @@ header img {
 
 	.linksAbajoFeatures {
 		width: 80%;
+	}
+
+	.preFooterText {
+		width: 100%;
+	}
+
+	.searchCamp {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.button7 {
+		margin-top: 20px;
 	}
 }
