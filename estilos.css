@@ -189,6 +189,9 @@ header img {
 		margin-left: 0;
 	}
 
+	.preDownload {
+		padding: 20px 10% 20px 10%;
+	}
 
 }
 
@@ -237,6 +240,10 @@ header img {
 
 	.BotonesHeader {
 		margin: 20px auto;
+	}
+
+	.preDownloadText {
+		width: 100%;
 	}
 }
 
