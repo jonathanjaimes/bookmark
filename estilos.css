@@ -1,0 +1,263 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+nav {
+	width: 100%;
+	padding: 40px 10% 0px 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: red;
+}
+
+.links a {
+	text-decoration: none;
+	margin-right: 30px;
+	font-size: .8em;
+	font-weight: 400;
+}
+
+.button1 {
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fb5859;
+	color: white;
+}
+
+header {
+	width: 100%;
+	padding: 80px 10% 50px 10%;
+	display: flex;
+}
+
+header img {
+	width: 500px;
+}
+
+.contHeaderIzq {
+	padding-right: 100px;
+}
+
+.contHeaderIzq h1 {
+	font-size: 2.5em;
+	margin-top: 50px;
+}
+
+.contHeaderIzq p {
+	margin-top: 20px;
+}
+
+.BotonesHeader {
+	margin-top: 20px;
+	/*background-color: red;*/
+	width: 240px;
+}
+
+.button2 {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #5266e2;
+	color: white;
+}
+
+.button3 {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f7f7f7;
+	color: black;
+}
+
+.features {
+	width: 100%;
+	padding: 0px 10% 60px 10%;
+
+}
+
+.textFeatures {
+	width: 450px;
+	margin: auto;
+}
+
+.textFeatures h2 {
+	text-align: center;
+}
+
+.textFeatures p {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.abajoFeatures {
+	width: 100%;
+	padding: 0px 10% 40px 10%;
+}
+
+.linksAbajoFeatures {
+	width: 518px;
+	margin: auto;
+	height: auto;
+	/*background-color: gray;*/
+}
+
+.linksAbajoFeatures a {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-bottom: 2px solid #f4f4f8;
+}
+
+.bookmark {
+	width: 100%;
+	padding: 30px 10% 30px 10%;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bookmark img {
+	width: 500px;
+}
+
+.contTextBookmark {
+	/*background-color: green;*/
+	width: 40%;
+	margin-left: 30px;
+}
+
+.contTextBookmark h3 {
+	font-size: 1.5em;
+}
+
+.contTextBookmark p {
+	margin-top: 30px;
+}
+
+.button4 {
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #5266e2;
+	color: white;
+	margin-top: 20px;
+}
+
+.download {
+	width: 100%;
+	padding: 0px 10% 0px 10%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 848px) {
+	.bookmark {
+		flex-direction: column;
+
+	}
+
+	.bookmark img {
+		width: 70%;
+	}
+
+	.contTextBookmark {
+		width: 100%;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+
+
+}
+
+@media screen and (max-width: 649px) {
+	
+	.linksAbajoFeatures {
+		width: 300px;
+	}
+
+	.linksAbajoFeatures a {
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+}
+
+@media screen and (max-width: 595px) {
+	.textFeatures {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 987px)  {
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	header img {
+		width: 70%;
+	}
+
+	.contHeaderIzq {
+	padding-right: 0px;
+}
+
+	.contHeaderIzq h1 {
+		text-align: center;
+	}
+
+	.contHeaderIzq p {
+		text-align: center;
+	}
+
+	.BotonesHeader {
+		margin: 20px auto;
+	}
+}
+
+
+@media screen and (max-width: 670px) {
+	nav {
+		flex-direction: column;
+	}
+
+	.links {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 473px) {
+	.links {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.links a {
+		margin-top: 20px;
+	}
+
+	.button1 {
+		margin-top: 20px;
+	}
+
+	header {
+		padding-top: 0;
+	}
+
+	.linksAbajoFeatures {
+		width: 80%;
+	}
+}
