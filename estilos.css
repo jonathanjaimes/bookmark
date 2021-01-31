@@ -167,10 +167,109 @@ header img {
 	margin-top: 20px;
 }
 
+.download {
+	width: 100%;
+	padding: 0px 10% 200px 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tarjeta1 {
+	width: 283px;
+	height: 372px;
+	/*background-color: red;*/
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url(images/bg-dots.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 270px;
+	border-radius: 20px;
+	box-shadow: 5px 1px 18px #888888;
+
+}
+
+.tarjeta2 {
+	width: 283px;
+	height: 372px;
+	/*background-color: red;*/
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url(images/bg-dots.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 270px;
+	position: relative;
+	top: 40px;
+	border-radius: 20px;
+	box-shadow: 5px 1px 18px #888888;
+}
+
+.tarjeta3 {
+	width: 283px;
+	height: 372px;
+	/*background-color: red;*/
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url(images/bg-dots.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 270px;
+	position: relative;
+	top: 80px;
+	border-radius: 20px;
+	box-shadow: 5px 1px 18px #888888;
+}
+
+.button5 {
+	padding: 15px 40px 15px 40px;
+	border-radius: 5px;
+	border: none;
+	background-color: #5266e2;
+	color: white;
+	margin-top: 60px;
+
+}
+
+.preMenu {
+	width: 100%;
+	padding: 0px 10% 70px 10%;
+}
+
+.preMenuText {
+	width: 450px;
+	margin: auto;
+}
+
+.preMenuText h2 {
+	text-align: center;
+}
+
+.preMenuText p {
+	text-align: center;
+}
+
+
+
+
+
 
 /*--------------------MEDIA------------*/
 
 
+
+@media screen and (max-width: 1070px) {
+	.download {
+		flex-direction: column;
+	}
+}
 
 
 @media screen and (max-width: 848px) {
@@ -190,7 +289,7 @@ header img {
 	}
 
 	.preDownload {
-		padding: 20px 10% 20px 10%;
+		padding: 20px 10% 40px 10%;
 	}
 
 }
@@ -212,6 +311,10 @@ header img {
 
 @media screen and (max-width: 595px) {
 	.textFeatures {
+		width: 100%;
+	}
+
+	.preMenuText {
 		width: 100%;
 	}
 }
