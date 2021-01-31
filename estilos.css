@@ -56,6 +56,9 @@ header img {
 	margin-top: 20px;
 	/*background-color: red;*/
 	width: 240px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .button2 {
@@ -519,4 +522,13 @@ header img {
 	.button7 {
 		margin-top: 20px;
 	}
+
+	.BotonesHeader {
+	flex-direction: column;
+	}
+
+	.button3 {
+		margin-top: 20px;
+	}
+
 }
